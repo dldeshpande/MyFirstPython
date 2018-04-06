@@ -1,0 +1,5 @@
+print("I like " +  ["Movies","Sports","Python"][0])
+print("I like " +  ["Movies","Sports","Python"][1])
+print("I like " +  ["Movies","Sports","Python"][2])
+print("The rela number is  " +  ["1","2","5"][1])
+print("The rela number is  " +  ["1","2","5"][0])
