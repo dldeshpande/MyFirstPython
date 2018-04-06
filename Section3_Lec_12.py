@@ -1,0 +1,8 @@
+print(5 == 5)
+print(6 == 7)
+print("True" is True)
+print("True" is "True")
+print("True" is True)
+print("True" is str(True))
+print(5 is 6)
+print(5 is 5)
