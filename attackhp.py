@@ -8,9 +8,9 @@ while playerhp > 0:
       dmg = random.randrange(attackhpl, attackhp)
       playerhp = playerhp - dmg
 
-      if playerhp <= 30 :
+      if playerhp <= 0 :
          playerhp = 30
-
+         continue
       print("Enenmy strike for: ", dmg ,"Damage point. current hp", playerhp)
       if playerhp == 0:
          print("You are suppose to be die")
